@@ -1,0 +1,11 @@
+{
+  "name": "try-codespaces-playground",
+  "type": "module",
+  "scripts": {
+    "start": "tsc -b -w"
+  },
+  "devDependencies": {
+    "prettier": "3.1.0",
+    "typescript": "^5.3.2"
+  }
+}

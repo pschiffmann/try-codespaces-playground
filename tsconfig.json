@@ -1,0 +1,23 @@
+{
+  "include": ["src/**/*"],
+  "compilerOptions": {
+    "rootDir": "src/",
+    "outDir": "dist/",
+    "tsBuildInfoFile": "dist/.tsbuildinfo",
+
+    "composite": true,
+    "declaration": true,
+    "pretty": true,
+    "target": "esnext",
+    "module": "nodenext",
+    "lib": ["DOM", "ESNext"],
+    "jsx": "react-jsx",
+    "isolatedModules": true,
+    "strict": true,
+
+    "moduleResolution": "nodenext",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true
+  }
+}
